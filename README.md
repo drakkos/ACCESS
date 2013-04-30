@@ -15,3 +15,11 @@ RELATED PUBLICATIONS
 4.	Heron, M.J., Hanson, V., & Ricketts, I. (2011).  Accessibility Support with the ACCESS Framework.   Digital Engagement ’11. Newcastle, United Kingdom.
 
 5.	Heron, M.J. (2011).  The ACCESS Framework: Reinforcement Learning for Accessibility and Cognitive Support for Older Adults (Doctoral dissertation).  [Available online at http://hdl.handle.net/10588/4902]
+
+
+OTHER RELEVANT PUBLICATIONS
+===========================
+
+6.  Heron, M.J (2012).  Inaccessible Through Oversight: The Need for Inclusive Game Design.   The Computer Games Journal 1(1). Glasgow, Scotland..  
+
+7.  Vickers, S., Istance, H., Heron, M.J. (2013).  Accessible Gaming for People with Physical and Cognitive Disabilities: A Framework for Dynamic Adaptation.   Conference of Human Computer Interaction 2013. Seattle, Washington.
