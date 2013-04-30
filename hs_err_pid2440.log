@@ -1,0 +1,140 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6da3c00e, pid=2440, tid=2736
+#
+# Java VM: Java HotSpot(TM) Client VM (11.3-b02 mixed mode, sharing windows-x86)
+# Problematic frame:
+# V  [jvm.dll+0x18c00e]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00446800):  JavaThread "main" [_thread_in_vm, id=2736, stack(0x01b90000,0x01be0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x000006a0
+
+Registers:
+EAX=0x000006a0, EBX=0x00000000, ECX=0x000006a0, EDX=0x23cf6b60
+ESP=0x01bdf968, EBP=0x01bdf990, ESI=0x23cf6b60, EDI=0x03db28dc
+EIP=0x6da3c00e, EFLAGS=0x00010206
+
+Top of Stack: (sp=0x01bdf968)
+0x01bdf968:   000006a0 23cf6b60 00446800 919e1091
+0x01bdf978:   00446800 00446800 6da56c88 000006a0
+0x01bdf988:   00000000 000006a0 01bdf9bc 6da3c252
+0x01bdf998:   00446800 23cf6b60 00446f90 23cf6b60
+0x01bdf9a8:   00000000 00446fb4 03dcedc0 00446fc8
+0x01bdf9b8:   000006a0 00446f90 6da3c2e2 00446800
+0x01bdf9c8:   23cf6b60 23cf6b60 6d9fa1b0 00446f9c
+0x01bdf9d8:   0057a3f7 00446f9c 00446800 00446478 
+
+Instructions: (pc=0x6da3c00e)
+0x6da3bffe:   ff 5f 5e 83 f0 02 5b 8b e5 5d c3 8b c1 83 e0 fd
+0x6da3c00e:   8b 10 89 17 89 4f 10 89 5f 14 89 5f 44 89 77 04 
+
+
+Stack: [0x01b90000,0x01be0000],  sp=0x01bdf968,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x18c00e]
+V  [jvm.dll+0x18c252]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  accessframework.AccessEngine.<init>(Laccessframework/AccessFrontend;)V+111
+j  accessframework.AccessFrontend.<init>()V+10
+j  accessframework.MojoSkin.<init>()V+1
+j  accessframework.MojoSkin.main([Ljava/lang/String;)V+4
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x03e3fc00 JavaThread "AWT-Windows" daemon [_thread_in_native, id=664, stack(0x044d0000,0x04520000)]
+  0x03e3e800 JavaThread "AWT-Shutdown" [_thread_blocked, id=2208, stack(0x04440000,0x04490000)]
+  0x03e3c800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=1020, stack(0x043b0000,0x04400000)]
+  0x03dc2000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=556, stack(0x041f0000,0x04240000)]
+  0x03dbb800 JavaThread "CompilerThread0" daemon [_thread_blocked, id=2188, stack(0x04160000,0x041b0000)]
+  0x03dba000 JavaThread "Attach Listener" daemon [_thread_blocked, id=2224, stack(0x040d0000,0x04120000)]
+  0x03db8c00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=2452, stack(0x04040000,0x04090000)]
+  0x03db3800 JavaThread "Finalizer" daemon [_thread_blocked, id=1248, stack(0x03fb0000,0x04000000)]
+  0x03daf000 JavaThread "Reference Handler" daemon [_thread_blocked, id=2480, stack(0x03f20000,0x03f70000)]
+=>0x00446800 JavaThread "main" [_thread_in_vm, id=2736, stack(0x01b90000,0x01be0000)]
+
+Other Threads:
+  0x03dad800 VMThread [stack: 0x03e90000,0x03ee0000] [id=2668]
+  0x03dc3800 WatcherThread [stack: 0x04280000,0x042d0000] [id=1484]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 852K [0x23cd0000, 0x23dd0000, 0x241b0000)
+  eden space 896K,  95% used [0x23cd0000, 0x23da53c0, 0x23db0000)
+  from space 64K,   0% used [0x23db0000, 0x23db0000, 0x23dc0000)
+  to   space 64K,   0% used [0x23dc0000, 0x23dc0000, 0x23dd0000)
+ tenured generation   total 4096K, used 0K [0x241b0000, 0x245b0000, 0x27cd0000)
+   the space 4096K,   0% used [0x241b0000, 0x241b0000, 0x241b0200, 0x245b0000)
+ compacting perm gen  total 12288K, used 140K [0x27cd0000, 0x288d0000, 0x2bcd0000)
+   the space 12288K,   1% used [0x27cd0000, 0x27cf31d0, 0x27cf3200, 0x288d0000)
+    ro space 8192K,  67% used [0x2bcd0000, 0x2c237ea8, 0x2c238000, 0x2c4d0000)
+    rw space 12288K,  53% used [0x2c4d0000, 0x2cb45530, 0x2cb45600, 0x2d0d0000)
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files (x86)\Java\jdk1.6.0_13\bin\java.exe
+0x7d600000 - 0x7d6f0000 	C:\WINDOWS\system32\ntdll.dll
+0x7d4c0000 - 0x7d5f0000 	C:\WINDOWS\syswow64\kernel32.dll
+0x00350000 - 0x003ec000 	C:\WINDOWS\syswow64\ADVAPI32.dll
+0x7da20000 - 0x7db00000 	C:\WINDOWS\syswow64\RPCRT4.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\client\jvm.dll
+0x7d930000 - 0x7da00000 	C:\WINDOWS\syswow64\USER32.dll
+0x7d800000 - 0x7d890000 	C:\WINDOWS\syswow64\GDI32.dll
+0x76aa0000 - 0x76acd000 	C:\WINDOWS\system32\WINMM.dll
+0x6d340000 - 0x6d348000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\hpi.dll
+0x76b70000 - 0x76b7b000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\zip.dll
+0x6d0b0000 - 0x6d1fa000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\awt.dll
+0x73070000 - 0x73097000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x77ba0000 - 0x77bfa000 	C:\WINDOWS\syswow64\msvcrt.dll
+0x7dee0000 - 0x7df40000 	C:\WINDOWS\system32\IMM32.dll
+0x77670000 - 0x777a4000 	C:\WINDOWS\syswow64\ole32.dll
+0x7dbd0000 - 0x7dcd3000 	C:\WINDOWS\WinSxS\WOW64_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.3790.1830_x-ww_0213CDC8\comctl32.dll
+0x04330000 - 0x04382000 	C:\WINDOWS\syswow64\SHLWAPI.dll
+0x6d2e0000 - 0x6d334000 	C:\Program Files (x86)\Java\jdk1.6.0_13\jre\bin\fontmanager.dll
+0x4e010000 - 0x4e1b6000 	C:\WINDOWS\system32\d3d9.dll
+0x04390000 - 0x04396000 	C:\WINDOWS\system32\d3d8thk.dll
+0x77b90000 - 0x77b98000 	C:\WINDOWS\syswow64\VERSION.dll
+0x7c8d0000 - 0x7d0d4000 	C:\WINDOWS\syswow64\shell32.dll
+0x10000000 - 0x10068000 	C:\libJNIDemoCdl-1.dll
+
+VM Arguments:
+java_command: accessframework.MojoSkin
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_11\bin;C:\cygwin\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\
+USERNAME=mheron
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=EM64T Family 6 Model 23 Stepping 6, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Server 2003 family Build 3790 Service Pack 1
+
+CPU:total 1 (1 cores per cpu, 1 threads per core) family 6 model 7 stepping 6, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 1047900k(76764k free), swap 2550696k(1808996k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.3-b02) for windows-x86 JRE (1.6.0_13-b03), built on Mar  9 2009 01:15:24 by "java_re" with MS VC++ 7.1
+
+time: Thu May 28 00:26:30 2009
+elapsed time: 0 seconds
+

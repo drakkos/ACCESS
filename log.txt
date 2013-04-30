@@ -1,0 +1,169 @@
+1291218891182: Engine started
+1291218897324: Wheel is Input Recorder: 100
+Doubleback Detector: 100
+Double Click Plugin: 100
+Mouse Locator Base: 100
+Mouse Trails Plugin: 100
+Electronic Notes: 100
+Missed Clicks Detector: 100
+
+1291218897354: No plugin selected
+1291218903389: Wheel is Input Recorder: 100
+Doubleback Detector: 100
+Double Click Plugin: 100
+Mouse Locator Base: 100
+Mouse Trails Plugin: 100
+Electronic Notes: 100
+Missed Clicks Detector: 100
+
+1291218903390: No plugin selected
+1291218909452: Wheel is Input Recorder: 100
+Doubleback Detector: 100
+Double Click Plugin: 100
+Mouse Locator Base: 100
+Mouse Trails Plugin: 100
+Electronic Notes: 100
+Missed Clicks Detector: 100
+
+1291218909453: No plugin selected
+1291218915521: Wheel is Input Recorder: 100
+Doubleback Detector: 100
+Double Click Plugin: 100
+Mouse Locator Base: 100
+Mouse Trails Plugin: 100
+Electronic Notes: 100
+Missed Clicks Detector: 100
+
+1291218915522: No plugin selected
+1291218963856: Engine started
+1291218969893: Wheel is Double Click Plugin: 100
+Mouse Trails Plugin: 100
+Missed Clicks Detector: 100
+Doubleback Detector: 100
+Mouse Locator Base: 100
+
+1291218969895: No plugin selected
+1291218981018: Engine started
+1291218987078: Wheel is 
+1291218987079: No plugin selected
+1291218993079: Wheel is 
+1291218993079: No plugin selected
+1291218999080: Wheel is 
+1291218999081: No plugin selected
+1291219005080: Wheel is 
+1291219005081: No plugin selected
+1291219011082: Wheel is 
+1291219011083: No plugin selected
+1291219017169: Wheel is 
+1291219017172: No plugin selected
+1291219023181: Wheel is 
+1291219023182: No plugin selected
+1291219029264: Wheel is 
+1291219029265: No plugin selected
+1291219035280: Wheel is 
+1291219035280: No plugin selected
+1291219041283: Wheel is 
+1291219041283: No plugin selected
+1291219047458: Wheel is 
+1291219047459: No plugin selected
+1291219053497: Wheel is 
+1291219053498: No plugin selected
+1291219057730: Engine started
+1291219059901: Wheel is 
+1291219059902: No plugin selected
+1291219065875: Engine started
+1291219067131: Wheel is 
+1291219067131: No plugin selected
+1291219073902: Wheel is 
+1291219073902: No plugin selected
+1291219077682: Engine started
+1291219083716: Wheel is 
+1291219083717: No plugin selected
+1291219089723: Wheel is 
+1291219089723: No plugin selected
+1291219095724: Wheel is 
+1291219095724: No plugin selected
+1291219101787: Wheel is 
+1291219101788: No plugin selected
+1291219103848: Engine started
+1291219107958: Wheel is 
+1291219107959: No plugin selected
+1291219112056: Wheel is 
+1291219112057: No plugin selected
+1291219118263: Wheel is 
+1291219118263: No plugin selected
+1291219148114: Engine started
+1291219154148: Wheel is 
+1291219154149: No plugin selected
+1291219160158: Wheel is 
+1291219160159: No plugin selected
+1291219166159: Wheel is 
+1291219166159: No plugin selected
+1291219172169: Wheel is 
+1291219172170: No plugin selected
+1291219178169: Wheel is 
+1291219178170: No plugin selected
+1291219184170: Wheel is 
+1291219184171: No plugin selected
+1291219190171: Wheel is 
+1291219190172: No plugin selected
+1291219196180: Wheel is 
+1291219196181: No plugin selected
+1291219202181: Wheel is 
+1291219202182: No plugin selected
+1291219208181: Wheel is 
+1291219208182: No plugin selected
+1291219214186: Wheel is 
+1291219214187: No plugin selected
+1291219220195: Wheel is 
+1291219220196: No plugin selected
+1291219226187: Engine started
+1291219226202: Wheel is 
+1291219226202: No plugin selected
+1291219232273: Wheel is 
+1291219232274: No plugin selected
+1291219350573: Engine started
+1291219356614: Wheel is 
+1291219356615: No plugin selected
+1291219386288: Engine started
+1291219527526: Engine started
+1291219595869: Engine started
+1291219788347: Engine started
+1291219794395: Wheel is 
+1291219794397: No plugin selected
+1291219800395: Wheel is 
+1291219800395: No plugin selected
+1291219806426: Wheel is 
+1291219806427: No plugin selected
+1291219897773: Engine started
+1291219903843: Wheel is 
+1291219903845: No plugin selected
+1291220017318: Engine started
+1291220291008: Engine started
+1291220297061: Wheel is 
+1291220297062: No plugin selected
+1291220303062: Wheel is 
+1291220303063: No plugin selected
+1291220393562: Engine started
+1291220399598: Wheel is 
+1291220399599: No plugin selected
+1291220504547: Engine started
+1291220732818: Engine started
+1291220738865: Wheel is 
+1291220738866: No plugin selected
+1291220747875: Engine started
+1291221269582: Engine started
+1291221275622: Wheel is 
+1291221275623: No plugin selected
+1291221366236: Engine started
+1291221372270: Wheel is 
+1291221372271: No plugin selected
+1291221379603: Engine started
+1291221385636: Wheel is 
+1291221385637: No plugin selected
+1291221399604: Engine started
+1291221405682: Wheel is 
+1291221405683: No plugin selected
+1291221816396: Engine started
+1291221822446: Wheel is 
+1291221822447: No plugin selected
