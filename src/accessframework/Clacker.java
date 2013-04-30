@@ -23,7 +23,6 @@ public class Clacker extends AccessPlugin implements InvokeablePlugin{
     }
 
     public void keyTyped (long time, String key) {
-      System.out.println ("HELLO: " + key);
       getEngine().sendMessage (time + "" + key);
     }
 
